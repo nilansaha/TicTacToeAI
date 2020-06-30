@@ -17,3 +17,14 @@ Simulate moves(states) up to potential end states upto a certain number of itera
 ```
 python simulation_search.py
 ```
+
+#### How to use the TicTacToe environment
+
+```python
+from tictactoe import TicTacToe
+
+env = TicTacToe() # Declare the environment
+completed, winner = env.move(0) # Move of player 1
+completed, winner = env.move(2) # Move of player 2
+env.render() # Show current state of the board
+```
